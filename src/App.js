@@ -49,8 +49,8 @@ export default function App() {
         <div className="Data">
         <h3> Description: {weatherData.description}</h3>
         <h3> Temp: {weatherData.temp} </h3>
-         <h3>Minimum Temperature: {weatherData.min_temp} </h3>
-         <h3>Maximum Temperature: {weatherData.max_temp} </h3>
+         <h3>Minimum Temperature: {weatherData.temp_min} </h3>
+         <h3>Maximum Temperature: {weatherData.temp_max} </h3>
           <h3> Humidity: {weatherData.humidity} </h3>
          <h3> Sunrise: {weatherData.sunrise} </h3>
           <h3> Sunset: {weatherData.sunset} </h3>
