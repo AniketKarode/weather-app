@@ -1,6 +1,6 @@
 {
-  "homepage": "http://AniketKarode.github.io/weather-app",
-  "name": "weather-app",
+  "homepage": "http://aniketkarode.github.io/weather-app",
+  "name": "todo-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
