@@ -21,7 +21,7 @@ export default function App() {
   const[loadData,setloadData]= useState(false);
 
   const searchWeather =()=>{
-    axios.get(`http://api.openweathermap.org/data/2.5/weather?q= ${city} &appid=f2d5d3cf7aa9f23fb2f0910ad31bfa42`).then((response)=>{
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q= ${city}&units=metric&appid=f2d5d3cf7aa9f23fb2f0910ad31bfa42`).then((response)=>{
 
       console.log(response.data);
       setweatherData({description: response.data.weather[0].description, temp: response.data.main.temp, temp_min: response.data.main.temp_min, temp_max: response.data.main.temp_max, humidity: response.data.main.humidity, sunrise: response.data.sys.sunrise,sunset: response.data.sys.sunset, country: response.data.sys.country, name: response.data.name })
